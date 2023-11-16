@@ -1,0 +1,91 @@
+.table-reserve {
+    background-color: #EDEFEE;
+    padding: 2rem 3rem;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.table-reserve h1 {
+    margin-bottom: 2rem;
+}
+
+.table-reserve form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+#calendar-icon {
+    font-size: 3rem;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+
+.field-group {
+    position: relative;
+    width: 100%;
+}
+
+.input-field {
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    padding-left: 3rem;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+    position: absolute;
+    padding: 0 1rem;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.icon svg {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.icon.area {
+    align-items: start;
+}
+
+.icon.area svg {
+    margin-top: 1.2rem;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.h-full {
+    height: 100%;
+}
+
+form button {
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    padding-left: 3rem;
+    font-size: 1.2rem;
+    background-color: #F4CE14;
+    text-align: center;
+    cursor: pointer;
+}
