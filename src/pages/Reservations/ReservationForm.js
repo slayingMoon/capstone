@@ -15,7 +15,7 @@ const ReservationForm = () => {
                             type="text"
                             id="full-name"
                             name="full-name"
-                            required="true"
+                            required
                             placeholder="Full name"
                         />
                         <div className='icon'>
@@ -28,52 +28,11 @@ const ReservationForm = () => {
                             type="text"
                             id="phone-number"
                             name="ohone-number"
-                            required="true"
+                            required
                             placeholder="Phone Number"
                         />
                         <div className='icon'>
                             <FontAwesomeIcon icon={faPhone} />
-                        </div>                    
-                    </div>
-                </div>
-                <div className='input-box'>
-                    <div className='field-group'>
-                        <input
-                            className="input-field"
-                            type="text"
-                            id="full-name"
-                            name="full-name"
-                            required="true"
-                            placeholder="People"
-                        />
-                        <div className='icon'>
-                            <FontAwesomeIcon icon={faUserGroup} />
-                        </div>                    
-                    </div>
-                    <div className='field-group'>
-                        <input
-                            className="input-field"
-                            type="text"
-                            id="phone-number"
-                            name="ohone-number"
-                            required="true"
-                            placeholder="DD/MM/YYYY"
-                        />
-                        <div className='icon'>
-                            <FontAwesomeIcon icon={faCalendarDays} />
-                        </div>                    
-                    </div>
-                    <div className='field-group'>
-                        <input
-                            className="input-field"
-                            type="text"
-                            id="phone-number"
-                            name="ohone-number"
-                            required="true"
-                            placeholder="11:00 AM"
-                        />
-                        <div className='icon'>
-                            <FontAwesomeIcon icon={faClock} />
                         </div>                    
                     </div>
                 </div>
@@ -85,7 +44,20 @@ const ReservationForm = () => {
                                 type="text"
                                 id="full-name"
                                 name="full-name"
-                                required="true"
+                                required
+                                placeholder="People"
+                            />
+                            <div className='icon'>
+                                <FontAwesomeIcon icon={faUserGroup} />
+                            </div>                    
+                        </div>
+                        <div className='field-group'>
+                            <input
+                                className="input-field"
+                                type="text"
+                                id="full-name"
+                                name="full-name"
+                                required
                                 placeholder="Occasion"
                             />
                             <div className='icon'>
@@ -98,7 +70,7 @@ const ReservationForm = () => {
                                 type="text"
                                 id="full-name"
                                 name="full-name"
-                                required="true"
+                                required
                                 placeholder="Seating"
                             />
                             <div className='icon'>
@@ -106,19 +78,49 @@ const ReservationForm = () => {
                             </div>                    
                         </div>
                     </div>
-                    <div className='field-group'>
-                        <textarea
-                            className="input-field h-full"
-                            type="textarea"
-                            id="phone-number"
-                            name="ohone-number"
-                            required="true"
-                            placeholder="Message"
-                        >
-                        </textarea>
-                        <div className='icon area'>
-                            <FontAwesomeIcon icon={faEnvelope} />
-                        </div>                    
+                    <div className='row-2'>
+                        <div className='input-box'>
+                            <div className='field-group'>
+                                <input
+                                    className="input-field"
+                                    type="text"
+                                    id="phone-number"
+                                    name="ohone-number"
+                                    required
+                                    placeholder="DD/MM/YYYY"
+                                />
+                                <div className='icon'>
+                                    <FontAwesomeIcon icon={faCalendarDays} />
+                                </div>                    
+                            </div>
+                            <div className='field-group'>
+                                <input
+                                    className="input-field"
+                                    type="text"
+                                    id="phone-number"
+                                    name="ohone-number"
+                                    required
+                                    placeholder="11:00 AM"
+                                />
+                                <div className='icon'>
+                                    <FontAwesomeIcon icon={faClock} />
+                                </div>                    
+                            </div>
+                        </div>
+                        <div className='field-group h-full'>
+                            <textarea
+                                className="input-field h-full"
+                                type="textarea"
+                                id="phone-number"
+                                name="ohone-number"
+                                required
+                                placeholder="Message"
+                            >
+                            </textarea>
+                            <div className='icon area'>
+                                <FontAwesomeIcon icon={faEnvelope} />
+                            </div>                    
+                        </div>
                     </div>
                 </div>
                 <button>Reserve Table</button>
