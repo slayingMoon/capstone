@@ -27,7 +27,7 @@ const ReservationForm = () => {
                             className="input-field"
                             type="text"
                             id="phone-number"
-                            name="ohone-number"
+                            name="phone-number"
                             required
                             placeholder="Phone Number"
                         />
@@ -41,9 +41,9 @@ const ReservationForm = () => {
                         <div className='field-group'>
                             <input
                                 className="input-field"
-                                type="text"
-                                id="full-name"
-                                name="full-name"
+                                type="number"
+                                id="people"
+                                name="people"
                                 required
                                 placeholder="People"
                             />
@@ -52,30 +52,35 @@ const ReservationForm = () => {
                             </div>                    
                         </div>
                         <div className='field-group'>
-                            <input
+                            <select
                                 className="input-field"
-                                type="text"
-                                id="full-name"
-                                name="full-name"
+                                id="occasion"
+                                name="occasion"
                                 required
                                 placeholder="Occasion"
-                            />
+                            >
+                                <option value="birthday">Birthday</option>
+                                <option value="engagement">Engagement</option>
+                                <option value="anniversary">Anniversary</option>
+                                <option value="other">Other</option>
+                            </select>
                             <div className='icon'>
                                 <FontAwesomeIcon icon={faChampagneGlasses} />
                             </div>                    
                         </div>
                         <div className='field-group'>
-                            <input
-                                className="input-field"
-                                type="text"
-                                id="full-name"
-                                name="full-name"
-                                required
-                                placeholder="Seating"
-                            />
-                            <div className='icon'>
-                                <FontAwesomeIcon icon={faChair} />
-                            </div>                    
+                            <div className="input-field box-input row-2">
+                                <div className='icon-checkbox'>
+                                    <FontAwesomeIcon icon={faChair} />
+                                    <p>Seating</p>
+                                </div>
+                                <div className='radio'>
+                                    <input className='radio__input' type="radio" id="indoors" name="seating" value="indoors" defaultChecked/>
+                                    <label className='radio__label' for="indoors">Indoors</label>
+                                    <input className='radio__input' type="radio" id="outdoors" name="seating" value="outdoors"/>
+                                    <label className='radio__label' for="outdoors">Outdoors</label>
+                                </div>
+                            </div>                
                         </div>
                     </div>
                     <div className='row-2'>
@@ -83,9 +88,9 @@ const ReservationForm = () => {
                             <div className='field-group'>
                                 <input
                                     className="input-field"
-                                    type="text"
-                                    id="phone-number"
-                                    name="ohone-number"
+                                    type="date"
+                                    id="date"
+                                    name="date"
                                     required
                                     placeholder="DD/MM/YYYY"
                                 />
@@ -96,9 +101,9 @@ const ReservationForm = () => {
                             <div className='field-group'>
                                 <input
                                     className="input-field"
-                                    type="text"
-                                    id="phone-number"
-                                    name="ohone-number"
+                                    type="time"
+                                    id="time"
+                                    name="time"
                                     required
                                     placeholder="11:00 AM"
                                 />

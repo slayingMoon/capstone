@@ -1,0 +1,14 @@
+.popular {
+    margin-bottom: 4rem;
+    place-items: center;
+}
+
+.popular h1 {
+    margin-bottom: 2rem;
+}
+
+.card__container {
+    display: grid;
+    row-gap: 5rem;
+    margin: 2rem 0;
+}
