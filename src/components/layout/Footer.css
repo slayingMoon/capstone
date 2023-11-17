@@ -1,0 +1,85 @@
+.footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #495E57;
+    color: #FFFFFF;
+}
+
+.footer .container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+}
+
+.footer .footer-logo {
+    grid-column: 1;
+    width: 6.875rem;
+    min-width: 6.875rem;
+}
+
+.footer h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.12rem;
+    margin-bottom: 1rem;
+}
+
+.footer-nav {
+    grid-column: 2;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.footer-nav li a {
+    color: #FFFFFF;
+}
+
+.footer-nav a:hover, 
+.footer-nav a:focus {
+  color: #F4CE14;
+}
+
+.footer-contact {
+    grid-column: 3;
+    min-width: 17.5rem;
+}
+
+.footer-contact address {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem
+}
+  
+.contact-info svg {
+    min-width: 1rem;
+}
+
+.footer-socials {
+    grid-column: 4;
+}
+
+.footer-socials h4 {
+    text-align: right;
+}
+
+.icons-container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+}
+
+.icons-container a {
+    color: #FFFFFF;
+}
+
+.icons-container a:hover {
+    color: #F4CE14;
+}

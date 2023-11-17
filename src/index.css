@@ -1,0 +1,57 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Karla, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495E57;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    line-height: 1;
+    font-family: "Markazi Text";
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 54.625rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.button-primary {
+    padding: 0.5rem 1rem;
+    border-radius: 0.8rem;
+    background-color: #F4CE14;
+    color: #333333;
+    font-weight: bold;
+}
