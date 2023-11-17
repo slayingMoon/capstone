@@ -9,7 +9,7 @@ const PopularCard = ({popular}) => {
             <div className='card__data'>
                 <span className='card__description'>{popular.description}</span>
                 <h2 className='card__title'>{popular.name}</h2>
-                <Link to="">Order</Link>
+                <Link to="/order-online">Order</Link>
             </div>
         </article>
     );
