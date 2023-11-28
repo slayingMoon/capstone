@@ -137,14 +137,14 @@
 }
 
 /* medium devices */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     .card__container {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 1.5rem;
     }
 }
 
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 927px) {
     .card__container {
         grid-template-columns: repeat(3, 1fr);
     }

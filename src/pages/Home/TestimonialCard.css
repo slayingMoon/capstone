@@ -39,3 +39,10 @@
 .testimonial-card .review {
     color: #FFFFFF;
 }
+
+@media (max-width: 949px) {
+    .testimonial-card {
+      grid-column: auto;
+      grid-row: auto;
+    }
+}

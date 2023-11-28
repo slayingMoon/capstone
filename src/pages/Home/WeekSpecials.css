@@ -26,3 +26,25 @@
 .specials-header .btn {
     padding: 0.6rem 1.5rem;
 }
+
+@media (max-width: 960px) {
+    .specials {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto auto;
+    }
+    
+    .specials-header {
+      grid-column: 1 / 3;
+    }
+}
+    
+@media (max-width: 692px) {
+    .specials {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+    }
+
+    .specials-header {
+        grid-column: 1 / 2;
+    }
+}

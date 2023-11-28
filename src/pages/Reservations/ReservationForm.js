@@ -8,7 +8,7 @@ const ReservationForm = () => {
             <FontAwesomeIcon icon={faCalendarCheck} id='calendar-icon' />
             <h1>Reserve a table</h1>
             <form>
-                <div className='input-box'>
+                <div className='input-box personal'>
                     <div className='field-group'>
                         <input
                             className="input-field"
@@ -36,7 +36,7 @@ const ReservationForm = () => {
                         </div>                    
                     </div>
                 </div>
-                <div className='input-box'>
+                <div className='input-box other'>
                     <div className='row-2'>
                         <div className='field-group'>
                             <input
@@ -84,7 +84,7 @@ const ReservationForm = () => {
                         </div>
                     </div>
                     <div className='row-2'>
-                        <div className='input-box'>
+                        <div className='input-box date-time'>
                             <div className='field-group'>
                                 <input
                                     className="input-field"

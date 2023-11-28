@@ -83,3 +83,111 @@
 .icons-container a:hover {
     color: #F4CE14;
 }
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 927px) {
+    .footer .container {
+      grid-template-columns: repeat(3, auto);
+      grid-template-rows: auto auto;
+    }
+    
+    .footer-socials {
+      grid-column: 1;
+      grid-row: 2;
+      margin-top: 2rem;
+    }
+
+    .footer-socials h4 {
+        text-align: unset;
+    }
+
+    .icons-container {
+        justify-content: unset;
+    }
+}
+    
+@media (max-width: 789px) {
+    .footer .container {
+        grid-template-columns: auto auto;
+    }
+
+    .footer-contact {
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 2rem;
+    }
+
+    .footer-socials {
+        grid-column: 2;
+    }
+
+    .footer-socials h4 {
+        text-align: unset;
+    }
+
+    .icons-container {
+        justify-content: unset;
+    }
+}
+    
+@media (max-width: 576px) {
+    .footer .container {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .footer .footer-logo {
+        grid-row: 1;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .footer-nav {
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contact {
+        grid-row: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contact .contact-info {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-socials {
+        grid-column: 1;
+        grid-row: 4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-socials h4 {
+        text-align: unset;
+    }
+
+    .icons-container {
+        justify-content: center;
+    }
+}

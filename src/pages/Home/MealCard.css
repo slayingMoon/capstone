@@ -12,9 +12,7 @@
 }
 
 .meal-card:hover {
-    transform: translateY(-1%);
-    /* box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25); */
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+    transform: translateY(-2%);
 }
 
 .meal-card-image img {
@@ -62,4 +60,10 @@
   
 .meal-card-body-footer svg {
     margin-left: 0.5rem;
+}
+
+@media (max-width: 960px) {
+    .meal-card {
+      grid-row: auto;
+    }
 }

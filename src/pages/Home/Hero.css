@@ -39,3 +39,26 @@
     border-radius: 1rem;
     object-fit: cover;
 }
+
+@media (max-width: 992px) {
+    .hero .container {
+        gap: 10rem;
+    }
+}
+
+@media (max-width: 792px) {
+    .hero .container {
+        gap: 4rem;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+    }
+    
+    .hero-details {
+      grid-row: 1;
+    }
+    
+    .hero-image {
+      grid-column: 1;
+      grid-row: 2;
+    }
+}
