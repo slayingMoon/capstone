@@ -25,7 +25,7 @@
     color: #FFFFFF;
 }
 
-.hero-details .button-primary {
+.hero-details .btn-container {
     display: inline-block;
     margin-top: 1rem;
 }

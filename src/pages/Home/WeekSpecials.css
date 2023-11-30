@@ -47,4 +47,8 @@
     .specials-header {
         grid-column: 1 / 2;
     }
+
+    .btn-container a{
+        text-align: center;
+    }
 }

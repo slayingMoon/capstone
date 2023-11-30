@@ -277,7 +277,9 @@ const BookingForm = ({
                         </FieldGroup>
                     </div>
                 </div>
-                <input aria-label="Make Reservation" data-testid="submit-btn" className="btn" type="submit" value="Make Your reservation" disabled={Object.values(errors).some((field) => field.message !== '')}/>
+                <div className='btn-container'>
+                    <input aria-label="Make Reservation" data-testid="submit-btn" className="btn btn-a" type="submit" value="Make Your reservation" disabled={Object.values(errors).some((field) => field.message !== '')}/>
+                </div>                
             </form>
         </section>
     );

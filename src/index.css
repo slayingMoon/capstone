@@ -51,8 +51,43 @@ img {
 
 .button-primary {
     padding: 0.5rem 1rem;
-    border-radius: 0.8rem;
     background-color: #F4CE14;
     color: #333333;
     font-weight: bold;
+}
+
+.btn-container {
+    border-radius: 0.8rem;
+    background-color: #F4CE14;
+    transition: 0.3s ease all;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-a {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    background: transparent;
+}
+
+.btn-container:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #FFE35D
+}
+
+.btn-container:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
 }
