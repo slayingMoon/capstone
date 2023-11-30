@@ -30,16 +30,16 @@
 
 .work-hours__address {
     font-family: "Markazi Text";
-    font-size: 2.875rem;
+    font-size: 2.2rem;
     color: #FFFFFF;
     font-weight: medium;
     width: 50%;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 
 .work-hours__time {
     font-family: "Markazi Text";
-    font-size: 1.875rem;
+    font-size: 1.6rem;
     color: #FFFFFF;
     height: 100%;
     text-align: right;

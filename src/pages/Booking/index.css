@@ -1,0 +1,13 @@
+.confirmed-booking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    height: 60vh;
+    text-align: center;
+}
+
+.field-group .error {
+    color: red;
+    font-size: 0.875rem;
+}

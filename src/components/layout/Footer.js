@@ -18,7 +18,7 @@ const Footer = () => {
         {name: 'Home', path: '/'},
         {name: 'About', path: '/about'},
         {name: 'Menu', path: '/menu'},
-        {name: 'Reservations', path: '/reservations'},
+        {name: 'Reservations', path: '/bookings'},
         {name: 'Order Online', path: '/order-online'},
         {name: 'Login', path: '/login'},
     ];
