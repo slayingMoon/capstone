@@ -8,7 +8,9 @@ const ConfirmedBooking = () => {
       <div className="container confirmed-booking">
         <FontAwesomeIcon icon={faCircleCheck} size="3x" />
         <h2>Reservation <br/>successful</h2>
-        <Link className="button-primary btn" to="/">Done</Link>
+        <div className="btn-container">
+          <Link className="button-primary btn btn-a" to="/">Done</Link>
+        </div>        
       </div>
     );
 };

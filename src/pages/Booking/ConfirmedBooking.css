@@ -1,6 +1,5 @@
 .confirmed-booking .btn {
-    margin-top: 2rem;
     width: 100%;
-    max-width: 160px;
+    min-width: 160px;
     border: none;
 }
