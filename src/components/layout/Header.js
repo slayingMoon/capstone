@@ -35,7 +35,7 @@ const Header = () => {
           </button>
           <ul className={isNavExpanded ? 'navbar-items expanded' : 'navbar-items'}>
             {navItems.map((navItem, index) => 
-              <li key={index}>
+              <li key={index} onClick={() => setIsNavExpanded(!isNavExpanded)}>
                 <Link to={navItem.path}>
                   {navItem.name}
                 </Link>
