@@ -49,6 +49,7 @@
     font-family: inherit;
     font-weight: bold;
     color: #333333;
+    text-align: center;
 }
 
 .navbar ul li::after {
@@ -99,6 +100,7 @@
     
       .navbar-items li {
         flex-direction: column;
+        width: 20%;
         max-width: 20%;
       }
 
