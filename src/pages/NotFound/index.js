@@ -1,4 +1,4 @@
-import notFoundGif from '../../assets/pulp-fiction-john-travolta.gif';
+import notFoundGif from '../../assets/not-found.gif';
 import './index.css';
 
 const NotFound = () => {
