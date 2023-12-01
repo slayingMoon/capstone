@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react"
 import { MemoryRouter } from "react-router-dom"
-import Bookings from "./";
+import Bookings from "../";
 
 describe('Bookings page', () => {
 
@@ -23,7 +23,8 @@ describe('Bookings page', () => {
             </MemoryRouter>
         );
 
-        const bookingDate = '2023-11-29';
+        const currentDate = new Date();
+        const bookingDate = new Date(currentDate.setDate(currentDate.getDate() + 1)).toISOString().split('T')[0];
         const dateInput = await screen.findByTestId('booking-date');
         const initialTimeSlots = await screen.findAllByTestId('booking-slot');
         fireEvent.change(dateInput, { target: { value: bookingDate }});
